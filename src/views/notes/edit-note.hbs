@@ -1,0 +1,37 @@
+{{#each errors}}
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  {{text}}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+{{/each}}
+
+<div class="col-md-4 mx-auto">
+  <div class="card">
+    <div class="card-header">
+      <h3>Editar reservación</h3>
+    </div>
+    <div class="card-body">
+      <form action="/notes/edit-note/{{note._id}}?_method=PUT" method="POST">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="search_select_box">
+            <select class="selectpicker w-100" name="title" id="inputGroupSelect02">
+              <option selected>Selecciona una opcion</option>
+              <option title="Electricidad">Electricidad</option>
+              <option title="Marketing">Marketing</option>
+              <option title="Belleza y estilismo">Belleza y estilismo</option>
+            </select>
+        </div>
+        <div class="form-group mt-4">
+          <textarea name="description" class="form-control">{{note.description}}</textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary btn-block" type="submit">
+            Guardar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

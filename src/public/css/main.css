@@ -1,0 +1,94 @@
+
+
+.logo {
+  width: 30%;
+}
+
+
+/*---------- Estilo de mindo--------*/
+h1 {
+  color:#8d6e19 !important;
+}
+
+h2 {
+  color:#8d6e19 !important;
+}
+
+h3 {
+  color:#8d6e19 !important;
+}
+
+h4 {
+  color:#8d6e19 !important;
+}
+
+h5 {
+  color:#8d6e19 !important;
+}
+
+.navbar {
+  background: #8d6e19 !important;
+}
+.btn-primary {
+  color:#000000 !important;
+  background: #8d6e19 !important;
+}
+
+
+/*---------- Estilo exportado del proyecto sky --------*/
+
+img {
+  height: 95%;
+  width: 95%;
+  object-fit: contain;
+ }
+
+
+#header img {
+  width: 80px;
+}
+
+#main .carousel-inner img {
+  
+  max-height: 80vh;
+  object-fit: cover;
+}
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .container{
+height: 100%;  
+} 
+
+#footer {
+  background: linear-gradient(90deg, #433a1c 0, #534d18 25%, #bb8d0f);
+}
+#footer a {
+  color:white;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+#place-time{
+  background-color: #423207;
+  color: white;
+}
+
+
+
+
+
+

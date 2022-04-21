@@ -1,0 +1,26 @@
+<div class="container p-4">
+        <div class ="row">
+            <div class = "d-grid gap-2 col-6 mx-auto">
+            <a class="nav-link btn btn-primary mb-4" href="/galery/upload">Subir imagen</a>
+            
+        </div>
+        <div class="row">
+            <div class="card-columns">
+
+                {{#each images}}
+
+                <div class="card animated fadeInDown">
+                    <img src="{{ path }}" class="card-img-top" alt="{{ filename }}">
+                    <div class="card-body">
+                        <h2 class="card-title"><strong>{{ title }}</strong></h2>
+                        <p class="card-text">{{ description }}</p>
+                        <p>{{ created_at }}</p>
+                        <a href="/galery/image/{{ _id }}" class="btn btn-primary" >
+                           Ver Imagen
+                        </a>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
