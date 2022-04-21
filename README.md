@@ -37,23 +37,5 @@ puedes ejecutar los siguientes comandos para arrancar la app:
 -    "timeago.js": "^4.0.0-beta.2",
 -    "uuid": "^3.3.3"
 ------------
-# `PAGINACIONES`
-------------
-## INICIO
-![](src/public/img/a.png)
-
-## CLOUDINARY PAGE
-### Se ha integrado por medio del uso de las librerias multer, mongodb y la API de cloudinary para permitir al usuario subir imagenes.
-![](src/public/img/b.png)
-
-## INICIO DE SESSIÓN
-### Gracias a las librerias de passport bryptjs se ha creado un apartado de registro e inicio de session.
-![](src/public/img/c.png)
-
-## PAGINA DE RESERVACION
-### Una ves inciado sessión se habilita el apartado de reservación para que el usuario pueda registrarse y separar un cupo para los cursos.
-![](src/public/img/d.png)
-
-------------
 
 
